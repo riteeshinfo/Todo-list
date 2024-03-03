@@ -15,7 +15,7 @@ const jwt = require("jsonwebtoken");
 const moment = require("moment");
 
 mongoose
-  .connect("mongodb+srv://sujan:sujan@cluster0.zjqdesc.mongodb.net/")
+  .connect("mongodb+srv://riteesh:riteesh@cluster0.zjqdesc.mongodb.net/")
   .then(() => {
     console.log("Connected to MongoDB");
   })
